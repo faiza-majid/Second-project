@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="logo">
-            <img src="../Second-project/logo.png" alt="Logo">
+            <img src="../Second-project/assets/logo-Icon-1.webp" alt="Logo">
         </div>
         <nav class="nav">
             <a href="#home">Home</a>
@@ -23,22 +25,299 @@
     </header>
     <div class="main-container">
         <div class="left-container">
-            <p style="color:#D61D64 " >I am looking for </p>
+            <p style="color:#D61D64 ">I am looking for </p>
             <br>
-          <div class="container">
-    <ul>
-        <p >Female</p>
-        <p>Male</p>
-    </ul>
-          </div>
-          </div>
-          <div class="right-container">
-            <p> <span class="line">Simple Rishta found 14028 matches found 14028 matches for you!</span></p>
+            <div class="container">
+                <ul>
 
-          </div>
-          
+                    <p>Female
+                    <div class="icon">
+                        <i class="fa-solid fa-person-dress"></i> </p>
+                    </div>
+
+                    <p>Male</p>
+                    <div class="icon">
+                        <i class="fa-solid fa-person-dress"></i>
+                    </div>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Martial Status" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+
+
+                </ul>
+
+                <div style="display: flex; align-items: center;">
+                    <p style="color: #D61D64; margin-right: 10px;">Age Range</p>
+                    <div class="number">
+                        <p style="margin: 0;">18</p>
+                    </div>
+
+                    <!-- Age Range Slider -->
+                    <ul>
+                        <input type="range" min="18" max="55" value="18" id="ageSlider" style="margin: 20px 10px;">
+
+                        <div class="number">
+                            <p style="margin: 0;">55</p>
+                        </div>
+
+                </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Religions" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Sect(s)" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Education" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Caste" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="Country" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="nav-search">
+
+
+                        <input placeholder="City" class="search-input">
+                        <select>
+
+                        </select class=search-selcect>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="right-container">
+            <p>
+                <span class="line">
+                    Simple Rishta found <span class="highlight">14028 matches</span> for you!
+                </span>
+            </p>
+            <div class="inner-right-container"> 
+                <div class="card">
+                    <div class="card-top">
+                        <div class="image-container">
+                            <img src="../Second-project/assets/female-placeholder.png" alt="Profile Image" class="profile-img">
+                        </div>
+                        <div class="card-info">
+                            <p id="highlight1">MATID 4574770</p>
+                            <p id="highlight2">Profile Created by Candidate</p>
+                            <button class="profile-button">Full profile</button>
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="info-item">
+                            <span class="info-icon">👤</span> <!-- Icon for 'single' -->
+                            <p>Single</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎂</span> <!-- Icon for '22 Years' -->
+                            <p>22 Years</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span> <!-- Icon for 'Multan' -->
+                            <p>Multan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🌏</span> <!-- Icon for 'Pakistan' -->
+                            <p>Pakistan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">☪️</span> <!-- Icon for 'Muslim' -->
+                            <p>Muslim</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">👪</span> <!-- Icon for 'Rai' -->
+                            <p>Rai</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">❓</span> <!-- Icon for 'Not Specified' -->
+                            <p>Not Specified</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-top">
+                        <div class="image-container">
+                            <img src="../Second-project/assets/female-placeholder.png" alt="Profile Image" class="profile-img">
+                        </div>
+                        <div class="card-info">
+                            <p id="highlight1">MATID 4574770</p>
+                            <p id="highlight2">Profile Created by Candidate</p>
+                            <button class="profile-button">Full profile</button>
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="info-item">
+                            <span class="info-icon">👤</span> <!-- Icon for 'single' -->
+                            <p>Single</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎂</span> <!-- Icon for '22 Years' -->
+                            <p>22 Years</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span> <!-- Icon for 'Multan' -->
+                            <p>Multan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🌏</span> <!-- Icon for 'Pakistan' -->
+                            <p>Pakistan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">☪️</span> <!-- Icon for 'Muslim' -->
+                            <p>Muslim</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">👪</span> <!-- Icon for 'Rai' -->
+                            <p>Rai</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">❓</span> <!-- Icon for 'Not Specified' -->
+                            <p>Not Specified</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="image-container">
+                            <img src="../Second-project/assets/female-placeholder.png" alt="Profile Image" class="profile-img">
+                        </div>
+                        <div class="card-info">
+                            <p id="highlight1">MATID 4574770</p>
+                            <p id="highlight2">Profile Created by Candidate</p>
+                            <button class="profile-button">Full profile</button>
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="info-item">
+                            <span class="info-icon">👤</span> <!-- Icon for 'single' -->
+                            <p>Single</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎂</span> <!-- Icon for '22 Years' -->
+                            <p>22 Years</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span> <!-- Icon for 'Multan' -->
+                            <p>Multan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🌏</span> <!-- Icon for 'Pakistan' -->
+                            <p>Pakistan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">☪️</span> <!-- Icon for 'Muslim' -->
+                            <p>Muslim</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">👪</span> <!-- Icon for 'Rai' -->
+                            <p>Rai</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">❓</span> <!-- Icon for 'Not Specified' -->
+                            <p>Not Specified</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="image-container">
+                            <img src="../Second-project/assets/female-placeholder.png" alt="Profile Image" class="profile-img">
+                        </div>
+                        <div class="card-info">
+                            <p id="highlight1">MATID 4574770</p>
+                            <p id="highlight2">Profile Created by Candidate</p>
+                            <button class="profile-button">Full profile</button>
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="info-item">
+                            <span class="info-icon">👤</span> <!-- Icon for 'single' -->
+                            <p>Single</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎂</span> <!-- Icon for '22 Years' -->
+                            <p>22 Years</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span> <!-- Icon for 'Multan' -->
+                            <p>Multan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🌏</span> <!-- Icon for 'Pakistan' -->
+                            <p>Pakistan</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">☪️</span> <!-- Icon for 'Muslim' -->
+                            <p>Muslim</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">👪</span> <!-- Icon for 'Rai' -->
+                            <p>Rai</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">❓</span> <!-- Icon for 'Not Specified' -->
+                            <p>Not Specified</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
 
     </div>
+
+
+
     <script src="script.js"></script>
 </body>
 
